@@ -24,7 +24,7 @@ CREATE TABLE `videos` (
   `time_stamp_timeline` date DEFAULT NULL,
   `priority` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 
